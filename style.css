@@ -1,0 +1,68 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #0c0e1c;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f4b042;
+    text-shadow: 0 0 15px #f4b042;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    background-color: #f4b042;
+    border: none;
+    color: #0c0e1c;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #d38a29;
+}
+
+.card-display {
+    margin-top: 30px;
+}
+
+.tarot-card {
+    background: #1b1e38;
+    border: 2px solid #f4b042;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(244, 176, 66, 0.5);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tarot-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgba(244, 176, 66, 0.8);
+}
+
+.card-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #f4b042;
+}
+
+.card-meaning {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
